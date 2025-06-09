@@ -412,7 +412,7 @@ Module[{c = CausalMatrix[sprinkling, subset]},
 c~BitAnd~UnitStep[-c . c]
 ]
 
-DistanceMatrix[sprinkling_List, subset_: All, restriction_String: "None"] :=
+DistanceMatrixC[sprinkling_List, subset_: All, restriction_String: "None"] :=
 Module[{geodist, type = CType@sprinkling},
 geodist = 
 Which[
