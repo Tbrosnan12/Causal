@@ -4,7 +4,7 @@
 (*Causal Sets Package*)
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*Definitions*)
 
 
@@ -293,7 +293,7 @@ are then paired together."*)
 
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*Visualisation*)
 
 
@@ -427,7 +427,7 @@ Which[
     Sqrt[(Causet`Private`Rows[r]^2 + Causet`Private`Cols[r]^2 - 2.0 * Outer[Times, r, r] * Cos[Outer[Plus, -\[Theta], \[Theta]]])~Subtract~Abs@Outer[Plus, -t, t]]],
     (* De Sitter space in global coordinates with conformal time coordinate*)
     
-    MemberQ[{"CSDeSitterDGlobalSlab"}, CType@sprinkling],
+    MemberQ[{"CSDeSitterDGlobalSlab","CSDeSitterDGlobalSlabFull"}, CType@sprinkling],
     Module[{t = CTime[sprinkling][[subset]], x = CSpace[sprinkling][[subset]]}, 
     UnitStep[(Re@ArcCos@Outer[Dot, x, x, 1])~Subtract~Outer[Plus, -t, t]]],
     
