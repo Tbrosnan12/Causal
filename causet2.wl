@@ -147,7 +147,7 @@ ArcDistance::usage  = "ArcDistance[X,Y] gives the lenght of the minor arc segmen
 Begin["`Private`"];
 
 
-(* ::Section:: *)
+(* ::Section::Closed:: *)
 (*Geometries*)
 
 
