@@ -1,0 +1,6 @@
+#!/bin/bash
+scp kaya:~/Causal/scripts/*.pdf .
+
+for pdf in ./*.pdf; do
+ xdg-open $pdf
+done
