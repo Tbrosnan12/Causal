@@ -1,6 +1,8 @@
 #!/bin/bash
-scp kaya:~/Causal/scripts/*.pdf .
+csvs=$(ssh kaya "ls ~/Causal/scripts/csvs")
 
-for pdf in ./*.pdf; do
- xdg-open $pdf
+for csv in ${csvs}; do
+ if [ ! -e "csvs/${csv}" ] ; then
+    scp kaya:~/Causal/scripts/csvs/${csv} csvs/${csv}
+ fi
 done
