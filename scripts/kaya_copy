@@ -1,0 +1,8 @@
+#!/bin/bash
+csvs=$(ssh kaya "ls ~/Causal/scripts/csvs")
+
+for csv in ${csvs}; do
+ if [ ! -e "csvs/${csv}" ] ; then
+    scp kaya:~/Causal/scripts/csvs/${csv} csvs/${csv}
+ fi
+done
