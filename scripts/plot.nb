@@ -3,10 +3,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[         0,          0]
-NotebookDataLength[   2177932,      35970]
-NotebookOptionsPosition[   2176975,      35941]
-NotebookOutlinePosition[   2177365,      35957]
-CellTagsIndexPosition[   2177322,      35954]
+NotebookDataLength[   2177951,      35969]
+NotebookOptionsPosition[   2176984,      35940]
+NotebookOutlinePosition[   2177384,      35956]
+CellTagsIndexPosition[   2177341,      35953]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -74,8 +74,6 @@ Cell[BoxData[{
      RowBox[{
       RowBox[{"Subscript", "[", 
        RowBox[{"m", ",", "c"}], "]"}], "^", "2"}]}], "]"}]}], ";"}], "\n", 
- RowBox[{
-  RowBox[{"d", ":=", "3"}], ";"}], "\n", 
  RowBox[{
   RowBox[{"H1", "=", 
    RowBox[{
@@ -175,23 +173,21 @@ Cell[BoxData[{
          RowBox[{"Sin", "[", "\[Beta]", "]"}], "*", 
          RowBox[{"Im", "[", 
           RowBox[{"Wpodal", "[", "\[Tau]", "]"}], "]"}]}]}], ")"}]}]}]}], 
-   ";"}], "\n", "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+   ";"}], "\[IndentingNewLine]", "\n"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"pdfFileName", "=", 
     RowBox[{"StringJoin", "[", 
-     RowBox[{
-     "\"\<~/Documents/Causal/scripts/kaya_plots/pdfs/plot_n=\>\"", ",", 
+     RowBox[{"\"\<~/Documents/Causal/scripts/pdfs/plot_n=\>\"", ",", 
       RowBox[{"ToString", "[", "n", "]"}], ",", "\"\<_m=\>\"", ",", 
       RowBox[{"ToString", "[", "m", "]"}], ",", 
       "\"\<_Re[two_point].pdf\>\""}], "]"}]}], ";"}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"PlottingPoints", "=", 
     RowBox[{"RandomSample", "[", 
-     RowBox[{"pointsTime", ",", "sample"}], "]"}]}], ";"}], 
-  "\[IndentingNewLine]", 
+     RowBox[{"pointsTime", ",", "sample"}], "]"}]}], ";"}], "\n", 
   RowBox[{"(*", 
    RowBox[{
     RowBox[{"Export", "[", 
@@ -233,7 +229,8 @@ Cell[BoxData[{
         RowBox[{"AxesLabel", "->", 
          RowBox[{"{", 
           RowBox[{"\"\<Proper time \[Tau]\>\"", ",", "\"\<Re[W]\>\""}], 
-          "}"}]}]}], "]"}]}], "]"}], ";"}], "*)"}], "\n"}], "\n", 
+          "}"}]}]}], "]"}]}], "]"}], ";"}], "*)"}], 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{"Print", "[", "pdfFileName", "]"}], ";"}]}], "Input",
  CellChangeTimes->{{3.96443028177857*^9, 3.9644302991358347`*^9}, {
@@ -242,8 +239,10 @@ Cell[BoxData[{
    3.964430542788518*^9}, {3.964430676992321*^9, 3.964430677099986*^9}, {
    3.964430722565201*^9, 3.964430743311764*^9}, {3.9644311374631*^9, 
    3.964431153730595*^9}, {3.964534012877288*^9, 3.9645340160433073`*^9}, {
-   3.964634408646986*^9, 3.964634445569385*^9}},
- CellLabel->"In[1]:=",ExpressionUUID->"b7118b37-52de-4bd6-90df-71d5590bbfeb"],
+   3.964634408646986*^9, 3.964634445569385*^9}, {3.964794093017419*^9, 
+   3.96479410229394*^9}, {3.964795060145273*^9, 
+   3.964795060755265*^9}},ExpressionUUID->"b7118b37-52de-4bd6-90df-\
+71d5590bbfeb"],
 
 Cell[BoxData[
  TemplateBox[{
@@ -35940,7 +35939,7 @@ rbjMgAcKZT774e9ptDjP39VVBvQoVW99tYNA/wOp2wgF
 }, Open  ]]
 },
 WindowSize->{1920, 1056},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowMargins->{{-101.25, Automatic}, {Automatic, 118.5}},
 FrontEndVersion->"14.1 for Linux x86 (64-bit) (July 16, 2024)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"f7787185-5090-4604-809a-b56ca113cb36"
@@ -35957,13 +35956,13 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[422, 15, 7732, 230, 661, "Input",ExpressionUUID->"b7118b37-52de-4bd6-90df-71d5590bbfeb"],
-Cell[8157, 247, 449, 10, 26, "Message",ExpressionUUID->"4e85a8b8-d67f-4b0c-8f32-d53bcd3bf7ea"],
-Cell[8609, 259, 524, 9, 23, "Print",ExpressionUUID->"effb0c73-39c3-4c69-bc2d-ca24fb4965b7"]
+Cell[422, 15, 7741, 229, 641, "Input",ExpressionUUID->"b7118b37-52de-4bd6-90df-71d5590bbfeb"],
+Cell[8166, 246, 449, 10, 26, "Message",ExpressionUUID->"4e85a8b8-d67f-4b0c-8f32-d53bcd3bf7ea"],
+Cell[8618, 258, 524, 9, 23, "Print",ExpressionUUID->"effb0c73-39c3-4c69-bc2d-ca24fb4965b7"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9170, 273, 2535, 71, 140, "Input",ExpressionUUID->"5af09271-7231-4fb1-af68-20a3142f1623"],
-Cell[11708, 346, 2165251, 35592, 393, "Output",ExpressionUUID->"cc053fbc-aa9f-44f7-b0a0-8efb1d96e0a6"]
+Cell[9179, 272, 2535, 71, 140, "Input",ExpressionUUID->"5af09271-7231-4fb1-af68-20a3142f1623"],
+Cell[11717, 345, 2165251, 35592, 393, "Output",ExpressionUUID->"cc053fbc-aa9f-44f7-b0a0-8efb1d96e0a6"]
 }, Open  ]]
 }
 ]
