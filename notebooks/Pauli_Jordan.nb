@@ -3338,9 +3338,9 @@ Cell[BoxData["\[Infinity]"], "Output",
   "Out[544]=",ExpressionUUID->"4e75c2fb-8868-4f19-ba67-2789ecee4ad3"]
 }, Open  ]]
 },
-WindowSize->{1920, 1056},
+WindowSize->{1236, 748.5},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
-FrontEndVersion->"14.1 for Linux x86 (64-bit) (July 16, 2024)",
+FrontEndVersion->"14.3 for Linux x86 (64-bit) (July 8, 2025)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"32ebe7da-3af0-4070-acee-21e8f095e620"
 ]
@@ -3358,7 +3358,7 @@ Notebook[{
 Cell[554, 20, 4373, 129, 359, "Input",ExpressionUUID->"eb565c2e-c765-4e0a-bfcc-4f1220dac775"],
 Cell[CellGroupData[{
 Cell[4952, 153, 2811, 69, 118, "Input",ExpressionUUID->"356244dd-3c99-4aa7-a53e-baf399f274ca"],
-Cell[7766, 224, 15588, 300, 602, "Output",ExpressionUUID->"01ddcbab-f475-44e7-a543-66bb9208729e"]
+Cell[7766, 224, 15588, 300, 575, "Output",ExpressionUUID->"01ddcbab-f475-44e7-a543-66bb9208729e"]
 }, Open  ]],
 Cell[23369, 527, 72999, 1266, 694, "Input",ExpressionUUID->"970269e1-0170-4cd8-8f40-cfe7484e2b65"],
 Cell[96371, 1795, 171, 3, 49, "Input",ExpressionUUID->"c5de4aee-a928-4031-8183-2b27a315a54f"],
