@@ -1,7 +1,7 @@
 d = 3;
 l = 1;
 sample := 100000;
-plotLength := 8;
+plotLength := 4;
 
 (*Import CSV filename*)
 dataFileName = $CommandLine[[4]]
